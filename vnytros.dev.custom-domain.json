@@ -29,5 +29,22 @@
       "data": "vnytros-verify=%txt%",
       "ttl": 300
     }
+  ],
+  "variables": [
+    {
+      "name": "ip",
+      "dataType": "String",
+      "description": "Server IP address e.g. 1.2.3.4"
+    },
+    {
+      "name": "target",
+      "dataType": "String",
+      "description": "CNAME destination e.g. app.vnytros.dev"
+    },
+    {
+      "name": "txt",
+      "dataType": "String",
+      "description": "Domain verification token"
+    }
   ]
 }
