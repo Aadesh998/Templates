@@ -8,7 +8,6 @@
   "description": "Connect your custom domain to Vnytros.",
   "variableDescription": "%ip%: server IP address; %target%: CNAME destination; %txt%: verification token",
   "syncPubKeyDomain": "vnytros.dev",
-  "syncRedirectDomain": "vnytros.dev",
   "records": [
     {
       "type": "A",
